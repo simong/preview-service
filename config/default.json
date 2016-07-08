@@ -1,0 +1,32 @@
+{
+  "app": {
+    "port": 2001,
+    "secret": "some shared secret"
+  },
+  "aws": {
+    "credentials": {
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "s3": {
+      "bucket": "ets-collabosphere",
+      "endpoint": null,
+      "region": "us-west-1"
+    },
+    "sqs": {
+      "queueUrl": "https://sqs.us-west-1.amazonaws.com/1234567789/ets-collabosphere-jobs",
+      "endpoint": null,
+      "region": "us-west-1"
+    }
+  },
+  "log": {
+    "app": {
+      "level": "info",
+      "stream": "stdout"
+    },
+    "process": {
+      "level": "info",
+      "stream": "logs/process.log"
+    }
+  }
+}

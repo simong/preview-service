@@ -1,0 +1,28 @@
+{
+  "aws": {
+    "credentials": {
+      "accessKeyId": "accessKeyId",
+      "secretAccessKey": "secretAccessKey"
+    },
+    "s3": {
+      "bucket": "ets-collabosphere",
+      "endpoint": "http://localhost:4567",
+      "region": "us-west-1"
+    },
+    "sqs": {
+      "queueUrl": "http://localhost:9324/queue/ets-collabosphere-jobs",
+      "endpoint": "http://localhost:9324",
+      "region": "us-west-1"
+    }
+  },
+  "log": {
+    "app": {
+      "level": "debug",
+      "stream": "stdout"
+    },
+    "process": {
+      "level": "debug",
+      "stream": "logs/process.log"
+    }
+  }
+}

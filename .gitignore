@@ -1,0 +1,6 @@
+.DS_STORE
+.jscsrc.swp
+*.log
+logs/*.log
+
+node_modules/*
